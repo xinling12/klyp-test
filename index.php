@@ -59,5 +59,12 @@
             </tbody>
         </table>
     </div>
+    <script>
+        function changeColor() {
+            var color=document.getElementById('color').value;
+            var ColorToChange = color.split(',')[0];
+            document.body.style.backgroundColor=ColorToChange;
+        }
+    </script>
 </body>
 </html>
