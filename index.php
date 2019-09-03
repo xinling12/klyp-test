@@ -27,10 +27,10 @@
             <input type="hidden" name="action" value="search">
             <div class="row">
                 <div class="col-4">
-                    <input type="text" class="form-control" placeholder="Movie Name" name="keyword" value="<?php echo $keyword?>">
+                    <input type="text" class="form-control" placeholder="Movie Name" name="keyword" id="color" value="<?php echo $_GET['keyword']?>">
                 </div>
                 <div class="col">
-                    <input type="submit" class="btn btn-info" value="Search">
+                    <input type="submit" class="btn btn-info" value="Search" onclick="changeColor()">
                 </div>
             </div>
         </form>
@@ -55,7 +55,7 @@
                 <td><?php echo ($movie_array['Title']) ?></td>
                 <td><?php echo ($movie_array['Year']) ?></td>
                 <td><?php echo ($movie_array['Runtime']) ?></td>
-                <td><?php echo ($movie_array['Plot']) ?></td>     
+                <td><?php echo ($movie_array['Plot']) ?></td>   
             </tbody>
         </table>
     </div>
