@@ -30,7 +30,7 @@
                     <input type="text" class="form-control" placeholder="Movie Name" name="keyword" value="<?php echo $keyword?>">
                 </div>
                 <div class="col">
-                    <input type="submit" class="btn btn-info" role="button" value="Search">
+                    <input type="submit" class="btn btn-info" value="Search">
                 </div>
             </div>
         </form>
