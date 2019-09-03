@@ -30,7 +30,7 @@
                     <input type="text" class="form-control" placeholder="Movie Name" name="keyword" id="color" value="<?php echo $_GET['keyword']?>">
                 </div>
                 <div class="col">
-                    <input type="submit" class="btn btn-info" value="Search" onclick="changeColor()">
+                    <input type="button" class="btn btn-info" value="Search" onclick="changeColor()">
                 </div>
             </div>
         </form>
