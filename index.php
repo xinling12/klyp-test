@@ -52,10 +52,10 @@
                     return;
                 }
                 ?>
-                <td><?php print_r ($movie_array['Title']) ?></td>
-                <td><?php print_r ($movie_array['Year']) ?></td>
-                <td><?php print_r ($movie_array['Runtime']) ?></td>
-                <td><?php print_r ($movie_array['Plot']) ?></td>     
+                <td><?php echo ($movie_array['Title']) ?></td>
+                <td><?php echo ($movie_array['Year']) ?></td>
+                <td><?php echo ($movie_array['Runtime']) ?></td>
+                <td><?php echo ($movie_array['Plot']) ?></td>     
             </tbody>
         </table>
     </div>
