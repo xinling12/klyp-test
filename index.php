@@ -45,6 +45,13 @@
             </tr>
             </thead>
             <tbody>
+                <?php 
+                if($movie_array['Response']=='False'){
+                    $message=$movie_array['Error'];
+                    echo"<script type='text/javascript'>alert('$message');</script>";
+                    return;
+                }
+                ?>
                 <td><?php print_r ($movie_array['Title']) ?></td>
                 <td><?php print_r ($movie_array['Year']) ?></td>
                 <td><?php print_r ($movie_array['Runtime']) ?></td>
