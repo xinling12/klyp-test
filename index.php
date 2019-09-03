@@ -63,7 +63,7 @@
         function changeColor() {
             var color=document.getElementById('color').value;
             var colorToChange = color.split(',')[0];
-            document.body.style.backgroundColor=ColorToChange;
+            document.body.style.backgroundColor=colorToChange;
         }
     </script>
 </body>
